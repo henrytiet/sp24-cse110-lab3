@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <title> Meeting Minutes </title>
-    <link rel="icon" href="favicon.ico" />
-    <meta="keywords" content="Meeting, Minutes" />
+    <link rel="icon" href="favicon.ico">
+    <meta name="keywords" content="Meeting, Minutes">
   </head>
   <body>
     <main>
@@ -15,5 +15,25 @@
         <p>Check Attendance</p>
       </header>
     </main>
+    <p> Send me an email!</p>
+    <form>
+      <fieldset>
+        <label for="name"> Name: </label>
+        <input type="text" id="name" name="name"> <br>
+        <label for="email"> Email Address: </label>
+        <input type="text" id="email" name="email"><br>
+        <label for="message"> Message: </label>
+        <textarea id="message" name="message" rows="5" cols="50">
+          
+        </textarea>
+        <label for="purpose"> Purpose: </label>
+        <select name="purpose" id="purpose">
+          <option value="question"> Question</option>
+          <option value="comment"> Comment</option>
+          <option value="concern"> Concern</option>
+        </select>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
   </body>
 </html>
