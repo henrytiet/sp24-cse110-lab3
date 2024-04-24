@@ -1,1 +1,49 @@
+body {
+    background-color: rgb(222, 239, 255);
+}
 
+.navigation {
+    color: #000000;
+    font-size: 10pt;
+    margin-left: 100px;
+}
+
+.checkin {
+    color: orange;
+    font-size: 20px;
+}
+
+.todo {
+    color: hsl(12, 100%, 50%);
+    font-size: 2rem;
+}
+
+.ordered {
+    color: color-mix(in lch, plum, pink);
+    font-size: 1em;
+    padding:100px 0px;
+}
+
+.unordered {
+    font-size: 1vh;
+}
+
+.files {
+
+}
+
+.form {
+    width: 10cm;
+    border-style: solid;
+    border-color: pink;
+    border-width: 100px;
+    border-radius: 10px;
+}
+
+.email {
+
+}
+
+.purpose {
+
+}

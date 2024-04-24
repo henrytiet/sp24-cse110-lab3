@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+  <style>
+    body {
+      margin:100px 100px;
+      padding-bottom: 35px;
+    }
+  </style>
   <head>
     <title> Meeting Minutes </title>
     <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
     <meta name="keywords" content="Meeting, Minutes">
   </head>
   <body>
     <main>
-      <nav>
+
+      <nav class="navigation">
         <a href="https://henrytiet.github.io/cse110/"> Visit my page!</a>
       </nav>
-      <header>
+      <header class="checkin">
         <h1>Check In</h1>
         <p>Check Attendance</p>
         <details>
@@ -21,21 +29,21 @@
 
       <hr>
       
-      <section>
+      <section class="todo">
         <h2> To do</h2>
-        <ol>
+        <ol class="ordered">
           <li> <em>Check</em> Attendance</li>
           <li> Create Meeting Minutes</li>
           <li> Submit to <strong>Gradescope</strong></li>
         </ol>
         <br>
-        <ul>
+        <ul class="unordered">
           <li> Check HTML <b>validity</b></li>
           <li> Check submission <i>requirements</i></li>
           <li> Converse with <span style="color:red">teammates</span></li>
         </ul>
       </section>
-      <div>
+      <div class="files">
         <p> Test Files</p>
         <img src="favicon-32x32.png" alt="Favicon" >
         <audio controls>
@@ -46,22 +54,22 @@
         </video>
       </div>
     </main>
-    <p> Send me an email!</p>
-    <form>
-      <fieldset>
+    <p style="text-align: center;"> Send me an email!</p>
+    <form class="form">
+      <fieldset class="email">
         <label for="name"> Name: </label>
         <input type="text" id="name" name="name"> <br>
         <label for="email"> Email Address: </label>
         <input type="text" id="email" name="email"><br>
         <label for="message"> Message: </label>
-        <textarea id="message" name="message" rows="5" cols="50">
+        <textarea id="message" name="message" rows="5" cols="30">
           
         </textarea>
-        <label for="purpose"> Purpose: </label>
-        <select name="purpose" id="purpose">
-          <option value="question"> Question</option>
+        <label for="purpose" style="background-color: rgb(121, 255, 139);"> Purpose: </label>
+        <select name="purpose" id="purpose" style="text-decoration: underline;">
+          <option value="question"> Question </option>
           <option value="comment"> Comment</option>
-          <option value="concern"> Concern</option>
+          <option value="concern" > Concern</option>
         </select>
         <button type="submit">Submit</button>
       </fieldset>
